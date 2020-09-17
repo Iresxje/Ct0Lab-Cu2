@@ -1,52 +1,44 @@
 body {
-    background-image: linear-gradient(red,orange, gold,green,blue,indigo,violet);
-	margin-left: 8%;
-	margin-right: 8%;
+    background-image: linear-gradient(whitesmoke, aqua , cyan, whitesmoke, plum ,violet, whitesmoke, burlywood, khaki);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: plum;
+    text-align: center;
 }
 
 h3 {
+    color: violet;
     text-align: center;
-    color: whitesmoke;
-    font-family: sans-serif;
-    margin-bottom: -80px;
-    font-size: 30px;
 }
 
-figure > img {
-	width:100%;
-    height: 100%;
-    margin-top: -15px;
-    border-radius: 10px;
-    border-style: groove;
-    border-color: palevioletred;
+img {
+    width: 952px;
+    align-items: center;
 }
 
-.Profielfoto {
-	float: left;
-	width: 275px;
-	height: 350px;
-}	
+#container {
+    background-color: plum;
+    width: 1024px;
+    margin: 0 auto;
+}
 
-.leerdoel {
-	float: right;
-	width: 275px;
-	height: 350px;
-}	
+#menu {
+    background-color: white;
+    padding: 3px;
+    border: 3px solid plum;
+    box-align: center;
+}
 
-.tekst {
+#artikel {
     text-align: center;
-    margin-bottom: 175px;
-	font-size: 20px;
-    margin-top: 135px;
-    font-family: sans-serif;
-    color:whitesmoke
+    background-color: white;
+    margin: 20px;
+    padding: 16px;
 }
 
-
- footer {
-     margin-top: 200px;
-     font-family: sans-serif;
-     text-align: center;
-     color: whitesmoke;
-     font-size: 18px;
- }
+footer {
+    text-align: center;
+    margin-bottom: 50px;
+}
